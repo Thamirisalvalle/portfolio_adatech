@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Roboto:ital,wght@1,300;1,400;1,500;1,700&family=Shadows+Into+Light+Two&family=Teko:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#121212 ;
+    color: #fff ;
+}
+
+html {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
