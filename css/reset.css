@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Roboto:ital,wght@1,300;1,400;1,500;1,700&family=Shadows+Into+Light+Two&family=Teko:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,500;1,500&family=Montserrat:ital,wght@0,400;1,100&family=Roboto:ital,wght@1,100;1,300;1,400;1,500;1,700&family=Shadows+Into+Light+Two&family=Teko:wght@600&display=swap');
 
 *{
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body{
-    background:#121212 ;
+    background:#2e2c2c ;
     color: #fff ;
 }
 
@@ -22,4 +22,5 @@ a {
 
 ul {
     list-style: none;
+
 }
