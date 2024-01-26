@@ -6,9 +6,10 @@
     box-sizing: border-box;
 }
 
-body{
+#pagina{
     background:#2e2c2c ;
     color: #fff ;
+    overflow-x: hidden;
 }
 
 html {
@@ -16,7 +17,7 @@ html {
     font-weight: 500;
 }
 
-a {
+li > a {
     text-decoration: none;
 }
 

@@ -1,4 +1,4 @@
-nav {
+.navegacao {
     max-width: 1120px;
     margin: auto;
     padding: 1.5rem 10rem;
@@ -40,7 +40,7 @@ nav {
     font-weight: 600;
 }
 
-main {
+.container-main {
     display: flex;
     flex-direction: column;
 }
@@ -71,7 +71,7 @@ main {
     gap: 1rem;
 }
 
-.dev{
+#dev{
     font-family: Epilogue;
     font-size: 1rem;
     font-weight: 500;
@@ -79,12 +79,12 @@ main {
     color:#fdeaf2;
 }
 
-h1{
+.titulo{
    font-size: 2.75rem;
    font-weight: 700;
 }
 
-hr{
+#linha{
     border-color: pink;
 }
 
@@ -109,16 +109,16 @@ hr{
 }
 
 
-.sobre-mim{
+#sobre-mim{
     display: flex;
-    text-align: center;
+    text-align:end
 
     max-width: 1120px;
     padding: 3rem 3rem;
     margin: auto;
 }
 
-.sobre-mim-cabecalho > h2 {
+#sobre-mim-cabecalho > h2 {
     gap:1rem
 }
 
@@ -127,6 +127,7 @@ h2{
     font-size: 3rem;
     font-weight: 700;
     color:  #fdeaf2;
+    text-align: center;
 }
 
 p{
@@ -140,33 +141,17 @@ p{
     text-align: center;
 }
 
-h3{
+.contato-comigo{
     font-family: Shadows Into Light Two;
     font-size: 2rem;
     font-weight: 500;
     color:  #fdeaf2;
     margin-bottom: 20px;
+    text-align: center;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
 
-label{
-    margin-bottom: 2px;
-}
-
-input,textarea {
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #444;
-    border-radius: 0.5rem;
-    background-color: #333;
-    color: #fff;
-}
-
-button {
+.botao-enviar {
     padding: 10px;
     width: 150px;
     height: 30px;
@@ -175,12 +160,18 @@ button {
     color: #fff;
 
     border: none;
-    cursor: pointer; 
-    text-align: center;
+    cursor: pointer;
     border-radius: 0.5rem;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
 }
 
-button:hover {
+.botao-enviar:hover {
     background-color: #777; /* Tom de cinza mais claro ao passar o mouse sobre o botão */
 }
 
